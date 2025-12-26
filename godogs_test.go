@@ -9,9 +9,6 @@ import (
 	"github.com/cucumber/godog"
 )
 
-// Godogs available to eat
-var Godogs int
-
 type godogsCtxKey struct{}
 
 func thereAreGodogs(ctx context.Context, available int) (context.Context, error) {
